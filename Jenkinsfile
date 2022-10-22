@@ -10,4 +10,8 @@ node {
         sh 'java HelloWorld'
 
 }
+    stage('final') {
+        echo 'FIN'
+
+}
 }
