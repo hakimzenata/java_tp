@@ -11,7 +11,7 @@ node {
 
 }
     stage('final') {
-        echo 'FIN'
+        sh 'echo "FIN"'
 
 }
 }
